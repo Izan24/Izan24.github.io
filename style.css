@@ -4,23 +4,57 @@
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
     margin: 0;
-    background-color: #443c3c;
-    height: 100vh;
-    width: 100%;
+    height: auto;
+    /* background-color: #443c3c; */
 }
 
 header {
+    position: sticky;
+    top: 0;
+
     width: 100%;
     display: flex;
     justify-content: center;
+
+    height: 25%;
+    /* max-height: 15%; */
+
+    overflow: hidden;
+
+    padding: 2rem;
+
+    background-color: rgba(253, 184, 249, 0.699);
+}
+
+footer {
+    position: absolute;
+    bottom: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: black;
+    
+    height: 20%;
 }
 
 h1 {
     margin: 0;
     color: rgb(221, 216, 216);
+    text-align: center;
+}
+
+
+.customcontainer1 {
+    height: 100vh;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.customcontainer2 {
+    height: 100vh;
+    width: 100%;
+    /* background-color: aquamarine; */
 }
